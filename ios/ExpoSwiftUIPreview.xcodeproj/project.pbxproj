@@ -16,6 +16,8 @@
 		171782D427BF1589009C9206 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171782D327BF1589009C9206 /* SwiftUIView.swift */; };
 		171782D827BF17E3009C9206 /* PreviewAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171782D727BF17E3009C9206 /* PreviewAppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		95C03BDA2ECA88F4C69B3BBF /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E0C870DA9BABBEFF0589E9 /* ExpoModulesProvider.swift */; };
+		CAB996F25511597ABC2F2733 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6356735973B377E5C17CB1A2 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +42,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ExpoSwiftUIPreview/main.m; sourceTree = "<group>"; };
 		1610F9117B646A6A542D1897 /* libPods-ExpoSwiftUIPreview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpoSwiftUIPreview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16691329E05B8806C04918DE /* libPods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E0C870DA9BABBEFF0589E9 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ExpoSwiftUIPreview/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		171782D227BF1589009C9206 /* ExpoSwiftUIPreview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpoSwiftUIPreview-Bridging-Header.h"; sourceTree = "<group>"; };
 		171782D327BF1589009C9206 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		171782D727BF17E3009C9206 /* PreviewAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAppDelegate.swift; sourceTree = "<group>"; };
 		458BF985465524B2C88E1BAC /* Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.debug.xcconfig"; path = "Target Support Files/Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests/Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6356735973B377E5C17CB1A2 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ExpoSwiftUIPreview/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E68ED4409A7048998051544 /* Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.release.xcconfig"; path = "Target Support Files/Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests/Pods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E0BEDF79DE45D2D25E537AA /* Pods-ExpoSwiftUIPreview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpoSwiftUIPreview.release.xcconfig"; path = "Target Support Files/Pods-ExpoSwiftUIPreview/Pods-ExpoSwiftUIPreview.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +108,14 @@
 			name = ExpoSwiftUIPreview;
 			sourceTree = "<group>";
 		};
+		203B8C1B5041BCD8194FC486 /* ExpoSwiftUIPreviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6356735973B377E5C17CB1A2 /* ExpoModulesProvider.swift */,
+			);
+			name = ExpoSwiftUIPreviewTests;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,14 @@
 				16691329E05B8806C04918DE /* libPods-ExpoSwiftUIPreview-ExpoSwiftUIPreviewTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59AF0BC863FD86EAE0170F42 /* ExpoSwiftUIPreview */ = {
+			isa = PBXGroup;
+			children = (
+				16E0C870DA9BABBEFF0589E9 /* ExpoModulesProvider.swift */,
+			);
+			name = ExpoSwiftUIPreview;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -130,6 +150,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				EE34E6F8A6B30305BD851CF5 /* Pods */,
+				DD686174563CB3694CA14EED /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,6 +164,15 @@
 				00E356EE1AD99517003FC87E /* ExpoSwiftUIPreviewTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DD686174563CB3694CA14EED /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				59AF0BC863FD86EAE0170F42 /* ExpoSwiftUIPreview */,
+				203B8C1B5041BCD8194FC486 /* ExpoSwiftUIPreviewTests */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		EE34E6F8A6B30305BD851CF5 /* Pods */ = {
@@ -411,6 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* ExpoSwiftUIPreviewTests.m in Sources */,
+				CAB996F25511597ABC2F2733 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +453,7 @@
 				171782D827BF17E3009C9206 /* PreviewAppDelegate.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				171782D427BF1589009C9206 /* SwiftUIView.swift in Sources */,
+				95C03BDA2ECA88F4C69B3BBF /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +479,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ExpoSwiftUIPreviewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +504,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ExpoSwiftUIPreviewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
